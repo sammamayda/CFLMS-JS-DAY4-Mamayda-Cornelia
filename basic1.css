@@ -1,0 +1,15 @@
+.container{
+    background-color: beige;
+}
+h1{
+    font-family: Arial sans-serif;
+    text-align: center;
+    color: burlywood;
+}
+
+#green{
+    color: green;
+}
+#red{
+    color: red;
+}
