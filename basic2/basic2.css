@@ -1,0 +1,68 @@
+.container {
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    margin: auto;
+    margin-bottom: 1em;
+}
+
+#heading {
+    color: white;
+    background-color: burlywood;
+}
+
+#main {
+    background-color: beige;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    font-family: 'Josefin Sans', sans-serif;
+
+}
+
+#resultContainer{
+
+
+}
+
+h1 {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+
+}
+
+button {
+    margin-top: 1em;
+    border: darkslategrey;
+    position: relative;
+    left: 45%;
+}
+
+input {
+    margin-bottom: 0.5em;
+    border: 0.5px solid black;
+}
+
+.div-result {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
+}
+
+#green {
+    color: green;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+#red {
+    color: red;
+    width: 100%;
+    padding: 1em;
+    text-align: center;
+    font-family: 'Josefin Sans', sans-serif;
+}
