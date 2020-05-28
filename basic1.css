@@ -1,10 +1,40 @@
 .container{
-    background-color: beige;
+    width: 80%;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+
+    margin: auto;
+    margin-bottom: 1em ;
+}
+
+.container #heading{
+    color: white;
+    background-color: darkslategrey;
+}
+
+.container #main{
+    background-color: lightgray;
 }
 h1{
     font-family: Arial sans-serif;
     text-align: center;
     color: burlywood;
+}
+
+button{
+    margin-top: 1em;
+    border: darkslategrey;
+    position: relative;
+    left: 45%;
+}
+input{
+    margin-bottom: 0.5em;
+    border: 0.5px solid black;
+}
+
+#result{
+    ;
 }
 
 #green{
