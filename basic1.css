@@ -1,45 +1,51 @@
-.container{
+.container {
     width: 80%;
     display: flex;
     align-items: center;
     flex-direction: column;
-
     margin: auto;
-    margin-bottom: 1em ;
+    margin-bottom: 1em;
 }
 
-.container #heading{
+.container #heading {
     color: white;
     background-color: darkslategrey;
 }
 
-.container #main{
+.container #main {
     background-color: lightgray;
 }
-h1{
+
+h1 {
     font-family: Arial sans-serif;
     text-align: center;
     color: burlywood;
 }
 
-button{
+button {
     margin-top: 1em;
     border: darkslategrey;
     position: relative;
     left: 45%;
 }
-input{
+
+input {
     margin-bottom: 0.5em;
     border: 0.5px solid black;
 }
 
-#result{
-    ;
+.div-result {
+    display: block;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0;
+    margin-inline-end: 0;
 }
 
-#green{
+#green {
     color: green;
 }
-#red{
+
+#red {
     color: red;
 }
