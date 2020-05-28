@@ -1,19 +1,22 @@
-
-function getValues(){
+function getValues(evt) {
     var firstname = document.getElementById('firstname').value;
     var lastname = document.getElementById('lastname').value;
     var age = Number(document.getElementById('age').value);
 
-     document.write(firstname);
-    /*if (length(firstname) > 5){
-        secondDiv.setAttribute('id', 'green')
+    console.log(firstname);
+    var result = document.getElementById('result');
+    result.innerHTML = firstname+ lastname+age;
+    if (firstname.length > 5){
+        result.setAttribute('id', 'green')
 
     }else{
-        secondDiv.setAttribute('id', 'red')
-    }*/
+        result.setAttribute('id', 'red')
+    }
 
+    //evt.preventDefault();
 
 
 }
 
-document.getElementById('submit').onclick = getValues();
+document.getElementById('submit').addEventListener('click', getValues);
+
